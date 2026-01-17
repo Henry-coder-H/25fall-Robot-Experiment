@@ -14,8 +14,6 @@
 - [SARSA](SARSA/README.md)：SARSA（4×4 / 8×8，确定/随机，含扫网格示例）。
 - [CSPMP](CSPMP/README.md)：CSPMP（FHR/IHR，自动切换滑动/非滑动转移建模）。
 - [Q-learning 仿真与实机](O-Learning+实机代码/README.md)：Q-learning 仿真与实机串口映射示例。
-- `frozenlake.py` 等：表格 Q-learning 进阶框架（地图生成、奖励塑形、可视化/GIF）。
-- `figures/`：部分可视化示例输出。
 
 ## 全局依赖
 - Python 3.10+（部分脚本在 3.12 验证）
