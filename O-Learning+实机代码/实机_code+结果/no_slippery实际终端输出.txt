@@ -1,0 +1,46 @@
+C:\Users\18454\.conda\envs\PycharmProjects\python.exe C:\Users\18454\Desktop\无人机大作业\reinforcementlearning4fun-master\gym-tutorial-frozen-lake\Q-learning.py 
+Episode 500/5000, epsilon = 0.606
+Episode 1000/5000, epsilon = 0.368
+Episode 1500/5000, epsilon = 0.223
+Episode 2000/5000, epsilon = 0.135
+Episode 2500/5000, epsilon = 0.082
+Episode 3000/5000, epsilon = 0.050
+Episode 3500/5000, epsilon = 0.030
+Episode 4000/5000, epsilon = 0.018
+Episode 4500/5000, epsilon = 0.011
+Episode 5000/5000, epsilon = 0.010
+
+训练完成！开始评估策略...
+
+task_write
+task_read
+
+ss <CommandConstructor.CommandConstructor object at 0x0000028500661C40>
+take_off bb 1d f3 00 00 01 32 00 32 00 00 00 00 00 00 00 00 00 01 32 00 32 00 00 00 00 00 00 00 64 00 f9
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 00 01 32 00 32 00 00 00 00 00 00 00 00 00 01 32 00 32 00 00 00 00 00 00 00 64 00 f9')
+speed bb 1d f3 00 02 02 14 00 00 00 00 00 00 00 00 00 00 02 02 14 00 00 00 00 00 00 00 00 00 64 00 5f
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 02 02 14 00 00 00 00 00 00 00 00 00 00 02 02 14 00 00 00 00 00 00 00 00 00 64 00 5f')
+high bb 1d f3 00 0b 03 64 00 00 00 00 00 00 00 00 00 00 0b 03 64 00 00 00 00 00 00 00 00 00 64 00 13
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 0b 03 64 00 00 00 00 00 00 00 00 00 00 0b 03 64 00 00 00 00 00 00 00 00 00 64 00 13')
+=== 测试回合 1 ===
+back bb 1d f3 00 05 04 02 32 00 00 00 00 00 00 00 00 00 05 04 02 32 00 00 00 00 00 00 00 00 64 00 a9
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 04 02 32 00 00 00 00 00 00 00 00 00 05 04 02 32 00 00 00 00 00 00 00 00 64 00 a9')
+back bb 1d f3 00 05 05 02 32 00 00 00 00 00 00 00 00 00 05 05 02 32 00 00 00 00 00 00 00 00 64 00 ab
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 05 02 32 00 00 00 00 00 00 00 00 00 05 05 02 32 00 00 00 00 00 00 00 00 64 00 ab')
+right bb 1d f3 00 05 06 04 32 00 00 00 00 00 00 00 00 00 05 06 04 32 00 00 00 00 00 00 00 00 64 00 b1
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 06 04 32 00 00 00 00 00 00 00 00 00 05 06 04 32 00 00 00 00 00 00 00 00 64 00 b1')
+back bb 1d f3 00 05 07 02 32 00 00 00 00 00 00 00 00 00 05 07 02 32 00 00 00 00 00 00 00 00 64 00 af
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 07 02 32 00 00 00 00 00 00 00 00 00 05 07 02 32 00 00 00 00 00 00 00 00 64 00 af')
+right bb 1d f3 00 05 08 04 32 00 00 00 00 00 00 00 00 00 05 08 04 32 00 00 00 00 00 00 00 00 64 00 b5
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 08 04 32 00 00 00 00 00 00 00 00 00 05 08 04 32 00 00 00 00 00 00 00 00 64 00 b5')
+right bb 1d f3 00 05 09 04 32 00 00 00 00 00 00 00 00 00 05 09 04 32 00 00 00 00 00 00 00 00 64 00 b7
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 05 09 04 32 00 00 00 00 00 00 00 00 00 05 09 04 32 00 00 00 00 00 00 00 00 64 00 b7')
+到达终点，成功 ✅
+land bb 1d f3 00 fe 0a 00 00 00 00 00 00 00 00 00 00 00 fe 0a 00 00 00 00 00 00 00 00 00 00 64 00 3f
+Tuple: (<QueueSignal.CMD: 1>, 'bb 1d f3 00 fe 0a 00 00 00 00 00 00 00 00 00 00 00 fe 0a 00 00 00 00 00 00 00 00 00 00 64 00 3f')
+task_read done.
+task_write done.
+
+在 1 次测试中，成功 1 次，成功率 = 100.0%
+
+进程已结束，退出代码为 0
