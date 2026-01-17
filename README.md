@@ -9,7 +9,7 @@
 - 任务：在有/无打滑环境中学习从起点到终点并避开坑洞的策略，可扩展奖励塑形、随机地图等。
 
 ## 仓库结构与链接
-- [DQN](DQN/README.md)：4×4 DQN（标准奖励）与 8×8 自定义奖励 DQN。
+- [DQN](DQN/README.md)：4×4 DQN（无奖励/有奖励/自定义奖励）与 DQN (无奖励/有奖励/自定义奖励)。
 - [Nature DQN & Double DQN](NatureDQN&DoubleDQN/README.md)：Nature DQN 与 Double DQN。
 - [SARSA](SARSA/README.md)：SARSA（4×4 / 8×8，确定/随机，含扫网格示例）。
 - [CSPMP](CSPMP/README.md)：CSPMP（FHR/IHR，自动切换滑动/非滑动转移建模）。
