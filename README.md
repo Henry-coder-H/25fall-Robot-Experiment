@@ -11,9 +11,9 @@
 ## 仓库结构与链接
 - [DQN](DQN/README.md)：4×4 DQN（标准奖励）与 8×8 自定义奖励 DQN。
 - [Nature DQN & Double DQN](NatureDQN&DoubleDQN/README.md)：Nature DQN 与 Double DQN。
-- [SARSA](SARSA/SARSA_README.md)：SARSA（4×4 / 8×8，确定/随机，含扫网格示例）。
+- [SARSA](SARSA/README.md)：SARSA（4×4 / 8×8，确定/随机，含扫网格示例）。
 - [CSPMP](CSPMP/README.md)：CSPMP（FHR/IHR，自动切换滑动/非滑动转移建模）。
-- [Q-learning 仿真与实机](O-Learning+实机代码/README-QL＋实机.md)：Q-learning 仿真与实机串口映射示例。
+- [Q-learning 仿真与实机](O-Learning+实机代码/README.md)：Q-learning 仿真与实机串口映射示例。
 - `frozenlake.py` 等：表格 Q-learning 进阶框架（地图生成、奖励塑形、可视化/GIF）。
 - `figures/`：部分可视化示例输出。
 
